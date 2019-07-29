@@ -1,7 +1,7 @@
 const mainBoard = document.querySelector("#MainBoard");
 const generateButton = document.querySelector("#generateButton")
 
-
+//monsters
 const monster1 = new monster ("creepy-bob","images/creepybob.jpeg",{x: xpos() , y: ypos() })
 const monster2 = new monster ("pickachu","images/picachu.jpg",{x: xpos(), y: ypos() })
 const monster3 = new monster ("poo","images/poo.jpg",{x: xpos(), y: ypos() })

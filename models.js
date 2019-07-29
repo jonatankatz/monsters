@@ -1,3 +1,4 @@
+//class monster function constructor
 class monster {
 
     constructor (name,imageUrl, pos) {
@@ -8,6 +9,7 @@ class monster {
         this.y = pos.y
  
     }
+    // monster position functions
     setXpos(Xposition) {
         console.log("this x position" + Xposition)
         this.x =  Xposition + "px"
@@ -17,6 +19,7 @@ class monster {
         this.y =  Yposition + "px"
     }
 
+// the monster ui 
     getCard(w, h) {
         const monsterUI = document.createElement("div");
         const img = document.createElement("img");
