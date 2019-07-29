@@ -15,7 +15,7 @@ function generateMonsters(){
 const monsters = [];
 
 monsters.push(monster1,monster2,monster3,monster4,monster5)
-
+// draw in array function
 function draw(arr) {
     mainBoard.innerHTML = "";
     arr.forEach(function (monster) {
